@@ -3,24 +3,36 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Londrina+Solid:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inspiration&family=Londrina+Solid:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inspiration&family=Kalam&family=Londrina+Solid:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Inspiration&family=Kalam&family=Londrina+Solid:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Inspiration&family=Kalam&family=Londrina+Solid:wght@100&family=Mali:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Inspiration&family=Kalam&family=Londrina+Solid:wght@100&family=Mali:wght@300&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Indie+Flower&family=Inspiration&family=Kalam&family=Londrina+Solid:wght@100&family=Mali:wght@300&family=Nanum+Pen+Script&family=Pangolin&family=Voltaire&display=swap');
 
 /* Styles for the body */
  
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Pangolin', cursive;
+
 	color: #202030;
 	background-color: #f8f8fc;
+
 }
+
+.myname {}
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
     background-color: #227C75;
+	font-family: 'Indie Flower', cursive; 
 }
 
 .resume-main {
 	background-color: #049085;
+	
 }
 
 .resume-aside {
@@ -53,8 +65,7 @@ body {
 	flex-basis: 1.4em;
 }
 
-.newfrontrob 
- font-family: 'Inspiration', cursive;
+
 
 
 
